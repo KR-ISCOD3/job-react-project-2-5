@@ -2,10 +2,24 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='w-full py-3'>
+    <nav className='w-full py-2'>
         <div className='flex justify-between items-center px-2 md:px-5 lg:px-30'>
-            <div>
+            <div className='flex items-center'>
                 <img src="./logo.png" alt="" className='w-[150px]' />
+                <ul className='ms-5 hidden md:flex'>
+                    <a href="" className='hover:scale-110 transition'>
+                        <li className='md:px-3 lg:px-4'>Home</li>
+                    </a>
+                     <a href="" className='hover:scale-110 transition'>
+                        <li className='md:px-3 lg:px-4'>Solution</li>
+                    </a>
+                    <a href="" className='hover:scale-110 transition'>
+                        <li className='md:px-3 lg:px-4'>Jobs</li>
+                    </a>
+                     <a href="" className='hover:scale-110 transition'>
+                        <li className='md:px-3 lg:px-4'>Contact</li>
+                    </a>
+                </ul>
             </div>
 
             <div>
