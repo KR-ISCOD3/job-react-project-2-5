@@ -1,5 +1,7 @@
 import BottomBar from "./components/BottomBar"
+import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Solution from "./components/Solution"
 
 function App() {
   return (
@@ -9,7 +11,10 @@ function App() {
       </header>
 
       <main className="relative">
-        <BottomBar/>
+        <Hero/>
+        <Solution/>
+
+        {/* <BottomBar/> */}
       </main>
     </div>
   )

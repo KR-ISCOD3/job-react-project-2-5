@@ -5,7 +5,7 @@ import { RiContactsLine } from "react-icons/ri";
 
 function BottomBar() {
   return (
-    <div className='md:hidden fixed w-full bottom-0 py-4 border-t border-gray-300'>
+    <div className='md:hidden fixed w-full bottom-0 py-4 border-t border-gray-300 bg-white'>
         <ul className="flex justify-around">
             <a href="" className="text-sm">
                 <li>
