@@ -9,7 +9,6 @@ function Solution() {
     {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
     {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
     {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
-
   ]
 
   return (
@@ -18,9 +17,6 @@ function Solution() {
         <h1 className='text-center text-3xl font-medium'>Many <span className='text-blue-800'>Solution</span></h1>
 
         <div className='mt-5 flex justify-between flex-wrap'>
-
-
-
             {/*  ----------------------- Solution 3 with arr ----------------------- */}
             {
                 arr.map((v,i)=>{
