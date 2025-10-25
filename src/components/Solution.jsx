@@ -9,14 +9,21 @@ function Solution() {
     {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
     {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
     {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
+    {title:"Programming",date:'19, Oct 2025',icon:FaRegFileCode,iconColor:'text-red-400'},
   ]
 
   return (
-    <div className='w-full py-5 bg-gray-100 p-3'>
-        <h1 className='text-center text-3xl font-medium'>Our Platform</h1>
-        <h1 className='text-center text-3xl font-medium'>Many <span className='text-blue-800'>Solution</span></h1>
+    <div className='w-full py-15 bg-gray-100 p-3'>
+        <h1 className='text-center text-3xl md:text-4xl font-medium'>Our Platform</h1>
+        <h1 className='text-center text-3xl md:text-4xl font-medium'>Many <span className='text-blue-800'>Solution</span></h1>
 
-        <div className='mt-5 flex justify-between flex-wrap'>
+        <div className='mt-10 md:w-[93%] lg:w-[85%] flex justify-between flex-wrap mx-auto'>
             {/*  ----------------------- Solution 3 with arr ----------------------- */}
             {
                 arr.map((v,i)=>{
